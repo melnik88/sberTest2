@@ -1,0 +1,10 @@
+.b-menu{
+    display: inline-block;
+    list-style: none outside none;
+    padding-left: 13px;
+}
+.b-menu__item{
+    color: #336699;
+    display: inline-block;
+    margin-right: 20px;
+}
