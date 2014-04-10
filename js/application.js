@@ -44,8 +44,8 @@ window.App = (function(){
 		            			((val.middlename != null) ? val.middlename : '')+' '+
 		            			((val.lastname != null) ? val.lastname : '')+'</td>'+
 		            		'<td>'+((val.email != null) ? val.email : '')+'</td>'+
-		            		'<td>'+((val.groups != null) ? val.groups: '')+'</td>'+
-		            		'<td>'+groups+'</td>'+
+		            		'<td>'+((val.groups != null) ? val.phone: '')+'</td>'+
+		            		'<td class="b-table__item_groups">'+groups+'</td>'+
 							'</tr>'
 		    $table.find('tr:last-child').after(string)    
 		        });
