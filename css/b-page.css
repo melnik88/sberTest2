@@ -1,3 +1,6 @@
 body{
-    background-color: #ffffff;
+    background-color: rgb(235,233,229);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14px;
+    min-width: 720px;
 }

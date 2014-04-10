@@ -5,19 +5,21 @@
     <meta charset="UTF-8">
     <title>Тестовое задание</title>
     <link rel="stylesheet" href="css/reset.css"/>
+     <link rel="stylesheet" href="css/mixins.css"/>
     <link rel="stylesheet" href="css/b-page.css"/>
     <link rel="stylesheet" href="css/b-menu.css"/>
-    <link rel="stylesheet" href="css/b-header-wrapper.css"/>
-    <!--<link rel="stylesheet" href="css/b-customers.css"/>-->
-    <script type="text/javascript" src="js/application.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-git2.js"></script>
+    <link rel="stylesheet" href="css/b-auth.css"/>
+    <link rel="stylesheet" href="css/b-header.css"/>
+    <link rel="stylesheet" href="css/b-search.css"/>
+    <link rel="stylesheet" href="css/b-add-man.css"/>
+    <link rel="stylesheet" href="css/b-table.css"/>
 </head>
 
 
 <body>
 
-<header>
-<div class='b-header-wrapper'>
+<header class='b-header'>
+<div class='b-header__inner1 clearfix'>
     <nav class='b-menu'>
         <a href="#" class='b-menu__item'>Платежи</a>
         <a href="#" class='b-menu__item'>Архив платежей</a>
@@ -25,31 +27,29 @@
         <a href="#" class='b-menu__item b-menu__item_active'>Плательщики</a>
     </nav>
     <div class="b-auth">
-        <div class="b-auth__name">Иванов Иван Иванович</div>
+        <span class="b-auth__name">Иванов Иван Иванович</span>
         <a href="#">Выход</a>
     </div>
 </div>
-<div class="b-header-wrapper b-header-wrapper_no-gradient">
-    <div class="b-add-man"><input type="checkbox"/><button class='b-add-man__button'>Создать плательщика</button></div>
-    <div class="b-search"><input type="search"/></div>
+<div class="b-header__inner2 clearfix">
+    <div class="b-add-man"><input type="checkbox"/><button class='b-add-man__button'><i class='b-add-man__button__icon'></i>Создать плательщика</button></div>
+    <div class="b-search"><input type="text" placeholder='Поиск'/></div>
 </div>
 </header>
 
-<table>
-  <tr>
+<table class='b-table'>
+  <tr class='b-table__item'>
     <th></th>
     <th>Плательщик</th>
     <th>Электронная почта</th>
     <th>Телефон</th>
     <th>Группы</th>
   </tr>
-  <tr>
-    <td><input type="checkbox"/></td>
-    <td>Декабрь</td>
-    <td>100р</td>
-    <td>100р</td>
-    <td>100р</td>
-  </tr>
+
 </table>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-git2.js"></script>
+<script type="text/javascript" src="js/application.js"></script>
+
 </body>
 </html>

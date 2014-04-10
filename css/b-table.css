@@ -1,0 +1,22 @@
+.b-table
+{
+    width: 98%;
+    padding: 0 1% 0 1%;
+    margin: 0 auto;
+    text-align: left;
+}
+.b-table .b-table__item{
+	border-top: none!important;
+    border-bottom: 1px solid rgb(188,188,188)!important;
+}
+
+.b-table .b-table__item th,
+.b-table .b-table__item td{
+    border-top:0;
+    padding: 15px 0;
+}
+
+.b-table .b-table__item th {
+    color: rgb(159,152,146);
+    font-weight: normal;
+}

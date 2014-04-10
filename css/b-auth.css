@@ -1,0 +1,14 @@
+.b-auth{
+	float: right;
+	dispay: inline-block;
+	margin-right: 40px;
+	height: 52px;
+	line-height: 54px;
+	font-size:13px;
+}
+
+.b-auth a{
+	margin-left: 10px;
+	color: rgb(118,118,118);
+}
+

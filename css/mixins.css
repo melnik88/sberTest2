@@ -1,0 +1,15 @@
+/* clearfix */
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after {
+   content: "";
+   display: table;
+}
+.clearfix:after {
+   clear: both;
+}
+
+/* для IE6-7 */
+.clearfix {
+   zoom: 1;
+}
